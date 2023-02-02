@@ -112,4 +112,19 @@ min(리스트)
 # 깊은 복사
 from copy import deepcopy
 deepcopy(리스트)
+
+# deque
+from collections import deque
+deq = deque()
+deq.appendleft()  # 시작점에 추가
+deq.append()  # 끝점에 추가
+deq.popleft()  # 시작점에서 삭제
+deq.pop()  # 끝점에서 삭제
+
+# 함수안에서 함수밖의 변수를 제어하고 싶을때 사용하는 키워드
+def outter:
+    a = 10
+    def inner:
+        nonlocal a
+        a += 10
 ```
