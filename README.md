@@ -127,4 +127,10 @@ def outter:
     def inner:
         nonlocal a
         a += 10
+
+# 최대 재귀 깊이 수정 (백준에서는 기본적으로 1000으로 설정되어 있음)
+import sys
+sys.setrecursionlimit(깊이)
+
+# 순열, 조합
 ```
