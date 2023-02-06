@@ -132,5 +132,7 @@ def outter:
 import sys
 sys.setrecursionlimit(깊이)
 
-# 순열, 조합
+# 문자와 아스키 코드 변환
+chr(아스키 코드)  # 문자로 변환
+ord(문자)  # 아스키 코드로 변환
 ```
