@@ -135,4 +135,9 @@ sys.setrecursionlimit(깊이)
 # 문자와 아스키 코드 변환
 chr(아스키 코드)  # 문자로 변환
 ord(문자)  # 아스키 코드로 변환
+
+# bisect, 이를 통해 리스트에서 어떤 구간에 있는 요소가 몇 개인지 구할 수 있다.
+from bisect import bisect_left, bisect_right
+bisect_left(list, element)  # 정렬된 리스트에서 요소가 들어갈 가장 왼쪽 인덱스 반환
+bisect_right(list, element)  # 정렬된 리스트에서 요소가 들어갈 가장 오른쪽 인덱스 반환
 ```
