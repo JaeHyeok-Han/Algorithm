@@ -140,4 +140,9 @@ ord(문자)  # 아스키 코드로 변환
 from bisect import bisect_left, bisect_right
 bisect_left(list, element)  # 정렬된 리스트에서 요소가 들어갈 가장 왼쪽 인덱스 반환
 bisect_right(list, element)  # 정렬된 리스트에서 요소가 들어갈 가장 오른쪽 인덱스 반환
+
+# Counter
+from collections import Counter
+Counter(리스트)  # 리스트에 각 요소들이 몇 개씩 들어있는지 dict로 반환
+Counter(문자열)  # 문자열에 각 문자가 몇 번 들어가는지 dict로 반환
 ```
