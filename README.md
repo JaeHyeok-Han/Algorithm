@@ -145,4 +145,7 @@ bisect_right(list, element)  # 정렬된 리스트에서 요소가 들어갈 가
 from collections import Counter
 Counter(리스트)  # 리스트에 각 요소들이 몇 개씩 들어있는지 dict로 반환
 Counter(문자열)  # 문자열에 각 문자가 몇 번 들어가는지 dict로 반환
+
+# 정해지지 않은 개수의인자를 받을때
+num, *nums = 리스트  # 몇 개의 요소가 있는 리스트가 들어오면 맨 앞의 요소는 num에 나머지 요소는 nums라는 list에 할당
 ```
